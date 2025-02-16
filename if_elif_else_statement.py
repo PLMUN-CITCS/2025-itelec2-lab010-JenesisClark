@@ -1,4 +1,4 @@
-user_input = input("Enter your numeric grade: ")
+user_input = input("Enter your numeric grade: 90")
 grade = int(user_input)
 if grade >= 90:
     letter_grade = "A"
@@ -10,5 +10,4 @@ elif grade >= 60:
     letter_grade = "D"
 else:
     letter_grade = "F"
-	print("Your grade is:", letter_grade)
-	
+print("Your grade is:", letter_grade)
